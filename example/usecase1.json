@@ -1,0 +1,1515 @@
+{
+  "version": "1.0.0",
+  "nodes": [
+    {
+      "id": "node_1766863769980_x9ndmtqkd",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 240,
+        "y": 0,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766863769980_x9ndmtqkd",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.49994635851431,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": null
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 240,
+        "y": 0
+      },
+      "data": {
+        "label": "Webhook",
+        "nodeType": "trigger",
+        "config": {
+          "url": "https://google/webhook/new-lead",
+          "method": "POST"
+        },
+        "icon": "🔗"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766863869013_mz3oj08lf",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 240,
+        "y": 135,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766863869013_mz3oj08lf",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.49993353279066,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766863869013_mz3oj08lf",
+            "position": "top",
+            "x": 97.49991981973217,
+            "y": -2.5000157027899634,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 240,
+        "y": 135
+      },
+      "data": {
+        "label": "Email",
+        "nodeType": "action",
+        "config": {
+          "to": "john@example.com",
+          "subject": "Welcome to Our Service!",
+          "body": "Hi John Doe,\nThank you for signing up!...\"  "
+        },
+        "icon": "✉️"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766863963895_s6m7m03ji",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 240,
+        "y": 390,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766863963895_s6m7m03ji",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.49995918423794,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766863963895_s6m7m03ji",
+            "position": "top",
+            "x": 97.49991981973217,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 240,
+        "y": 390
+      },
+      "data": {
+        "label": "HTTP",
+        "nodeType": "action",
+        "config": {
+          "url": "https://crm.yourapp.com/api/leads",
+          "method": "POST",
+          "headers": "{}",
+          "body": "{                                                              \n\"name\": \"John Doe\",                                           \"email\": \"john@example.com\",                                 \n\"phone\": \"+1234567890\",                                     \n\"source\": \"webhook\"                                          } "
+        },
+        "icon": "🌐"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766864033162_mw6512ism",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 240,
+        "y": 510,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766864033162_mw6512ism",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.49995918423794,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766864033162_mw6512ism",
+            "position": "top",
+            "x": 97.49991981973217,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 240,
+        "y": 510
+      },
+      "data": {
+        "label": "Condition",
+        "nodeType": "logic",
+        "config": {
+          "expression": "response.status == 200",
+          "trueLabel": "True",
+          "falseLabel": "False"
+        },
+        "icon": "🔀"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766864071695_jwsmmqgx1",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 105,
+        "y": 705,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766864071695_jwsmmqgx1",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.50001048713249,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766864071695_jwsmmqgx1",
+            "position": "top",
+            "x": 97.49997112262672,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 105,
+        "y": 705
+      },
+      "data": {
+        "label": "SMS",
+        "nodeType": "action",
+        "config": {
+          "to": "9990151009",
+          "message": "Welcome! Your account has been successfully  created."
+        },
+        "icon": "💬"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766864075497_ckh5sc7rx",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 390,
+        "y": 705,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766864075497_ckh5sc7rx",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.50001048713249,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766864075497_ckh5sc7rx",
+            "position": "top",
+            "x": 97.49991981973217,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 390,
+        "y": 705
+      },
+      "data": {
+        "label": "SMS",
+        "nodeType": "action",
+        "config": {
+          "to": "9990150009",
+          "message": "ALERT: Failed to add lead John Doe to CRM. Status: 500"
+        },
+        "icon": "💬"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766864242832_rt7ihrnrn",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 141
+      },
+      "computedPosition": {
+        "x": 105,
+        "y": 885,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766864242832_rt7ihrnrn",
+            "position": "top",
+            "x": 97.49997112262672,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 105,
+        "y": 885
+      },
+      "data": {
+        "label": "End",
+        "nodeType": "action",
+        "config": {},
+        "icon": "🏁"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766866116790_zytaatq2p",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 107
+      },
+      "computedPosition": {
+        "x": 240,
+        "y": 255,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": [
+          {
+            "id": null,
+            "type": "source",
+            "nodeId": "node_1766866116790_zytaatq2p",
+            "position": "bottom",
+            "x": 93.9999337478524,
+            "y": 100.49995918423794,
+            "width": 12,
+            "height": 12
+          }
+        ],
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766866116790_zytaatq2p",
+            "position": "top",
+            "x": 97.49991981973217,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 240,
+        "y": 255
+      },
+      "data": {
+        "label": "Delay",
+        "nodeType": "logic",
+        "config": {
+          "duration": 1,
+          "unit": "hours"
+        },
+        "icon": "⏰"
+      },
+      "events": {}
+    },
+    {
+      "id": "node_1766866179229_9vhixk19k",
+      "type": "custom",
+      "dimensions": {
+        "width": 200,
+        "height": 141
+      },
+      "computedPosition": {
+        "x": 390,
+        "y": 885,
+        "z": 0
+      },
+      "handleBounds": {
+        "source": null,
+        "target": [
+          {
+            "id": null,
+            "type": "target",
+            "nodeId": "node_1766866179229_9vhixk19k",
+            "position": "top",
+            "x": 97.49991981973217,
+            "y": -2.499990051342689,
+            "width": 5,
+            "height": 5
+          }
+        ]
+      },
+      "selected": false,
+      "dragging": false,
+      "resizing": false,
+      "initialized": false,
+      "isParent": false,
+      "position": {
+        "x": 390,
+        "y": 885
+      },
+      "data": {
+        "label": "End",
+        "nodeType": "action",
+        "config": {},
+        "icon": "🏁"
+      },
+      "events": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_1766864045608_350zwvt7u",
+      "type": "smoothstep",
+      "source": "node_1766863769980_x9ndmtqkd",
+      "target": "node_1766863869013_mz3oj08lf",
+      "data": {},
+      "events": {},
+      "label": "",
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766863769980_x9ndmtqkd",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 0,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766863769980_x9ndmtqkd",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49994635851431,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": null
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 0
+        },
+        "data": {
+          "label": "Webhook",
+          "nodeType": "trigger",
+          "config": {
+            "url": "https://google/webhook/new-lead",
+            "method": "POST"
+          },
+          "icon": "🔗"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766863869013_mz3oj08lf",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 135,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766863869013_mz3oj08lf",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49993353279066,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766863869013_mz3oj08lf",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.5000157027899634,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 135
+        },
+        "data": {
+          "label": "Email",
+          "nodeType": "action",
+          "config": {
+            "to": "john@example.com",
+            "subject": "Welcome to Our Service!",
+            "body": "Hi John Doe,\nThank you for signing up!...\"  "
+          },
+          "icon": "✉️"
+        },
+        "events": {}
+      },
+      "sourceX": 339.9999337478524,
+      "sourceY": 112.49994635851431,
+      "targetX": 339.99991981973216,
+      "targetY": 132.49998429721003
+    },
+    {
+      "id": "edge_1766864057940_5gi16ivti",
+      "type": "smoothstep",
+      "source": "node_1766863963895_s6m7m03ji",
+      "target": "node_1766864033162_mw6512ism",
+      "data": {},
+      "events": {},
+      "label": "",
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766863963895_s6m7m03ji",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 390,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766863963895_s6m7m03ji",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766863963895_s6m7m03ji",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 390
+        },
+        "data": {
+          "label": "HTTP",
+          "nodeType": "action",
+          "config": {
+            "url": "https://crm.yourapp.com/api/leads",
+            "method": "POST",
+            "headers": "{}",
+            "body": "{                                                              \n\"name\": \"John Doe\",                                           \"email\": \"john@example.com\",                                 \n\"phone\": \"+1234567890\",                                     \n\"source\": \"webhook\"                                          } "
+          },
+          "icon": "🌐"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766864033162_mw6512ism",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 510,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864033162_mw6512ism",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864033162_mw6512ism",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 510
+        },
+        "data": {
+          "label": "Condition",
+          "nodeType": "logic",
+          "config": {
+            "expression": "response.status == 200",
+            "trueLabel": "True",
+            "falseLabel": "False"
+          },
+          "icon": "🔀"
+        },
+        "events": {}
+      },
+      "sourceX": 339.9999337478524,
+      "sourceY": 502.4999591842379,
+      "targetX": 339.99991981973216,
+      "targetY": 507.5000099486573
+    },
+    {
+      "id": "edge_1766864082924_s1c3zobzi",
+      "type": "smoothstep",
+      "source": "node_1766864033162_mw6512ism",
+      "target": "node_1766864071695_jwsmmqgx1",
+      "data": {},
+      "events": {},
+      "label": "",
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766864033162_mw6512ism",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 510,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864033162_mw6512ism",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864033162_mw6512ism",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 510
+        },
+        "data": {
+          "label": "Condition",
+          "nodeType": "logic",
+          "config": {
+            "expression": "response.status == 200",
+            "trueLabel": "True",
+            "falseLabel": "False"
+          },
+          "icon": "🔀"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766864071695_jwsmmqgx1",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 105,
+          "y": 705,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864071695_jwsmmqgx1",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.50001048713249,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864071695_jwsmmqgx1",
+              "position": "top",
+              "x": 97.49997112262672,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 105,
+          "y": 705
+        },
+        "data": {
+          "label": "SMS",
+          "nodeType": "action",
+          "config": {
+            "to": "9990151009",
+            "message": "Welcome! Your account has been successfully  created."
+          },
+          "icon": "💬"
+        },
+        "events": {}
+      },
+      "sourceX": 339.9999337478524,
+      "sourceY": 622.4999591842379,
+      "targetX": 204.99997112262673,
+      "targetY": 702.5000099486573
+    },
+    {
+      "id": "edge_1766864085674_zw7y5gqrh",
+      "type": "smoothstep",
+      "source": "node_1766864033162_mw6512ism",
+      "target": "node_1766864075497_ckh5sc7rx",
+      "data": {},
+      "events": {},
+      "label": "",
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766864033162_mw6512ism",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 510,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864033162_mw6512ism",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864033162_mw6512ism",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 510
+        },
+        "data": {
+          "label": "Condition",
+          "nodeType": "logic",
+          "config": {
+            "expression": "response.status == 200",
+            "trueLabel": "True",
+            "falseLabel": "False"
+          },
+          "icon": "🔀"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766864075497_ckh5sc7rx",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 390,
+          "y": 705,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864075497_ckh5sc7rx",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.50001048713249,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864075497_ckh5sc7rx",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 390,
+          "y": 705
+        },
+        "data": {
+          "label": "SMS",
+          "nodeType": "action",
+          "config": {
+            "to": "9990150009",
+            "message": "ALERT: Failed to add lead John Doe to CRM. Status: 500"
+          },
+          "icon": "💬"
+        },
+        "events": {}
+      },
+      "sourceX": 339.9999337478524,
+      "sourceY": 622.4999591842379,
+      "targetX": 489.99991981973216,
+      "targetY": 702.5000099486573
+    },
+    {
+      "id": "edge_1766864245362_ldo3rw8ha",
+      "type": "smoothstep",
+      "source": "node_1766864071695_jwsmmqgx1",
+      "target": "node_1766864242832_rt7ihrnrn",
+      "data": {},
+      "events": {},
+      "label": "",
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766864071695_jwsmmqgx1",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 105,
+          "y": 705,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864071695_jwsmmqgx1",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.50001048713249,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864071695_jwsmmqgx1",
+              "position": "top",
+              "x": 97.49997112262672,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 105,
+          "y": 705
+        },
+        "data": {
+          "label": "SMS",
+          "nodeType": "action",
+          "config": {
+            "to": "9990151009",
+            "message": "Welcome! Your account has been successfully  created."
+          },
+          "icon": "💬"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766864242832_rt7ihrnrn",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 141
+        },
+        "computedPosition": {
+          "x": 105,
+          "y": 885,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864242832_rt7ihrnrn",
+              "position": "top",
+              "x": 97.49997112262672,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 105,
+          "y": 885
+        },
+        "data": {
+          "label": "End",
+          "nodeType": "action",
+          "config": {},
+          "icon": "🏁"
+        },
+        "events": {}
+      },
+      "sourceX": 204.9999337478524,
+      "sourceY": 817.5000104871325,
+      "targetX": 204.99997112262673,
+      "targetY": 882.5000099486573
+    },
+    {
+      "id": "edge_1766866127887_iw34lmin6",
+      "type": "smoothstep",
+      "source": "node_1766866116790_zytaatq2p",
+      "target": "node_1766863963895_s6m7m03ji",
+      "data": {},
+      "events": {},
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766866116790_zytaatq2p",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 255,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766866116790_zytaatq2p",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766866116790_zytaatq2p",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 255
+        },
+        "data": {
+          "label": "Delay",
+          "nodeType": "logic",
+          "config": {
+            "duration": 1,
+            "unit": "hours"
+          },
+          "icon": "⏰"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766863963895_s6m7m03ji",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 390,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766863963895_s6m7m03ji",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766863963895_s6m7m03ji",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 390
+        },
+        "data": {
+          "label": "HTTP",
+          "nodeType": "action",
+          "config": {
+            "url": "https://crm.yourapp.com/api/leads",
+            "method": "POST",
+            "headers": "{}",
+            "body": "{                                                              \n\"name\": \"John Doe\",                                           \"email\": \"john@example.com\",                                 \n\"phone\": \"+1234567890\",                                     \n\"source\": \"webhook\"                                          } "
+          },
+          "icon": "🌐"
+        },
+        "events": {}
+      },
+      "sourceX": 339.9999337478524,
+      "sourceY": 367.4999591842379,
+      "targetX": 339.99991981973216,
+      "targetY": 387.5000099486573
+    },
+    {
+      "id": "edge_1766866137987_a80j6c6j2",
+      "type": "smoothstep",
+      "source": "node_1766863869013_mz3oj08lf",
+      "target": "node_1766866116790_zytaatq2p",
+      "data": {},
+      "events": {},
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766863869013_mz3oj08lf",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 135,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766863869013_mz3oj08lf",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49993353279066,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766863869013_mz3oj08lf",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.5000157027899634,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 135
+        },
+        "data": {
+          "label": "Email",
+          "nodeType": "action",
+          "config": {
+            "to": "john@example.com",
+            "subject": "Welcome to Our Service!",
+            "body": "Hi John Doe,\nThank you for signing up!...\"  "
+          },
+          "icon": "✉️"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766866116790_zytaatq2p",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 240,
+          "y": 255,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766866116790_zytaatq2p",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.49995918423794,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766866116790_zytaatq2p",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 240,
+          "y": 255
+        },
+        "data": {
+          "label": "Delay",
+          "nodeType": "logic",
+          "config": {
+            "duration": 1,
+            "unit": "hours"
+          },
+          "icon": "⏰"
+        },
+        "events": {}
+      },
+      "sourceX": 339.9999337478524,
+      "sourceY": 247.49993353279066,
+      "targetX": 339.99991981973216,
+      "targetY": 252.50000994865732
+    },
+    {
+      "id": "edge_1766866184593_88k64q6ax",
+      "type": "smoothstep",
+      "source": "node_1766864075497_ckh5sc7rx",
+      "target": "node_1766866179229_9vhixk19k",
+      "data": {},
+      "events": {},
+      "animated": true,
+      "markerEnd": "arrowclosed",
+      "sourceNode": {
+        "id": "node_1766864075497_ckh5sc7rx",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 107
+        },
+        "computedPosition": {
+          "x": 390,
+          "y": 705,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": [
+            {
+              "id": null,
+              "type": "source",
+              "nodeId": "node_1766864075497_ckh5sc7rx",
+              "position": "bottom",
+              "x": 93.9999337478524,
+              "y": 100.50001048713249,
+              "width": 12,
+              "height": 12
+            }
+          ],
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766864075497_ckh5sc7rx",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 390,
+          "y": 705
+        },
+        "data": {
+          "label": "SMS",
+          "nodeType": "action",
+          "config": {
+            "to": "9990150009",
+            "message": "ALERT: Failed to add lead John Doe to CRM. Status: 500"
+          },
+          "icon": "💬"
+        },
+        "events": {}
+      },
+      "targetNode": {
+        "id": "node_1766866179229_9vhixk19k",
+        "type": "custom",
+        "dimensions": {
+          "width": 200,
+          "height": 141
+        },
+        "computedPosition": {
+          "x": 390,
+          "y": 885,
+          "z": 0
+        },
+        "handleBounds": {
+          "source": null,
+          "target": [
+            {
+              "id": null,
+              "type": "target",
+              "nodeId": "node_1766866179229_9vhixk19k",
+              "position": "top",
+              "x": 97.49991981973217,
+              "y": -2.499990051342689,
+              "width": 5,
+              "height": 5
+            }
+          ]
+        },
+        "selected": false,
+        "dragging": false,
+        "resizing": false,
+        "initialized": false,
+        "isParent": false,
+        "position": {
+          "x": 390,
+          "y": 885
+        },
+        "data": {
+          "label": "End",
+          "nodeType": "action",
+          "config": {},
+          "icon": "🏁"
+        },
+        "events": {}
+      },
+      "sourceX": 489.9999337478524,
+      "sourceY": 817.5000104871325,
+      "targetX": 489.99991981973216,
+      "targetY": 882.5000099486573
+    }
+  ],
+  "timestamp": 1766866253745,
+  "metadata": {
+    "exportedAt": "2025-12-27T20:10:53.745Z",
+    "nodeCount": 9,
+    "edgeCount": 8
+  }
+}
