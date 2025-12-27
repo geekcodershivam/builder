@@ -20,8 +20,8 @@
             "type": "source",
             "nodeId": "node_1766866322549_hegbws4hm",
             "position": "bottom",
-            "x": 93.9999337478524,
-            "y": 73.99997485993998,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -67,8 +67,8 @@
             "type": "source",
             "nodeId": "node_1766866408317_3oaiuh5jc",
             "position": "bottom",
-            "x": 93.9998311420633,
-            "y": 73.99998768566361,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -79,8 +79,8 @@
             "type": "target",
             "nodeId": "node_1766866408317_3oaiuh5jc",
             "position": "top",
-            "x": 97.49991981973217,
-            "y": -2.499990051342689,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -126,8 +126,8 @@
             "type": "source",
             "nodeId": "node_1766866452767_xq2eehk4x",
             "position": "bottom",
-            "x": 93.9998311420633,
-            "y": 73.99996203421634,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -138,8 +138,8 @@
             "type": "target",
             "nodeId": "node_1766866452767_xq2eehk4x",
             "position": "top",
-            "x": 97.49991981973217,
-            "y": -2.499990051342689,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -185,8 +185,8 @@
             "type": "source",
             "nodeId": "node_1766866498173_dj17wja4u",
             "position": "bottom",
-            "x": 94.00003635364149,
-            "y": 73.99996203421634,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -197,8 +197,8 @@
             "type": "target",
             "nodeId": "node_1766866498173_dj17wja4u",
             "position": "top",
-            "x": 97.50002242552127,
-            "y": -2.499990051342689,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -243,8 +243,8 @@
             "type": "source",
             "nodeId": "node_1766866540400_ap9t9dcod",
             "position": "bottom",
-            "x": 93.9999337478524,
-            "y": 73.99996203421634,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -255,8 +255,8 @@
             "type": "target",
             "nodeId": "node_1766866540400_ap9t9dcod",
             "position": "top",
-            "x": 97.50002242552127,
-            "y": -2.499990051342689,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -300,8 +300,8 @@
             "type": "source",
             "nodeId": "node_1766866585932_e7hdvszab",
             "position": "bottom",
-            "x": 93.9999337478524,
-            "y": 74.00001333711089,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -312,8 +312,8 @@
             "type": "target",
             "nodeId": "node_1766866585932_e7hdvszab",
             "position": "top",
-            "x": 97.50002242552127,
-            "y": -2.499990051342689,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -358,8 +358,8 @@
             "type": "source",
             "nodeId": "node_1766866618785_vab8wr6xx",
             "position": "bottom",
-            "x": 93.999949998572,
-            "y": 74.000013706675,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -370,8 +370,8 @@
             "type": "target",
             "nodeId": "node_1766866618785_vab8wr6xx",
             "position": "top",
-            "x": 97.4999728623798,
-            "y": -2.499935348610739,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -418,8 +418,8 @@
             "type": "source",
             "nodeId": "node_1766866694099_qz7dj9295",
             "position": "bottom",
-            "x": 93.999949998572,
-            "y": 73.99990033092223,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -430,8 +430,8 @@
             "type": "target",
             "nodeId": "node_1766866694099_qz7dj9295",
             "position": "top",
-            "x": 97.4999728623798,
-            "y": -2.500048724363511,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -451,8 +451,8 @@
         "nodeType": "action",
         "config": {
           "to": "test@gmail.com",
-          "subject": "Reminder 2",
-          "body": "Reminder Message 2"
+          "subject": "Discount Code",
+          "body": "RDiscount Code2"
         },
         "icon": "✉️"
       },
@@ -477,8 +477,8 @@
             "type": "source",
             "nodeId": "node_1766866743702_ymhzo0gln",
             "position": "bottom",
-            "x": 94.00000054834209,
-            "y": 73.99993495967786,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -489,8 +489,8 @@
             "type": "target",
             "nodeId": "node_1766866743702_ymhzo0gln",
             "position": "top",
-            "x": 97.5000256021692,
-            "y": -2.500000656465877,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -536,8 +536,8 @@
             "type": "source",
             "nodeId": "node_1766866817069_a72jy7rqh",
             "position": "bottom",
-            "x": 94.00000054834209,
-            "y": 73.99999529661508,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -548,8 +548,8 @@
             "type": "target",
             "nodeId": "node_1766866817069_a72jy7rqh",
             "position": "top",
-            "x": 97.5000256021692,
-            "y": -2.500000656465877,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -594,8 +594,8 @@
             "type": "source",
             "nodeId": "node_1766866885002_r0vx95f5i",
             "position": "bottom",
-            "x": 94.00000054834209,
-            "y": 74.0001159704895,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -606,8 +606,8 @@
             "type": "target",
             "nodeId": "node_1766866885002_r0vx95f5i",
             "position": "top",
-            "x": 97.5000256021692,
-            "y": -2.500000656465877,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -626,10 +626,10 @@
         "label": "HTTP",
         "nodeType": "action",
         "config": {
+          "body": "{ key: 'HTTP release hold\"}",
           "url": "https://mail.google.com/mail/u/releasehold",
           "method": "GET",
-          "headers": "{}",
-          "body": "{ key: 'HTTP release hold\"}"
+          "headers": "{}"
         },
         "icon": "🌐"
       },
@@ -654,8 +654,8 @@
             "type": "source",
             "nodeId": "node_1766866950002_kushrw4qm",
             "position": "bottom",
-            "x": 94.00000054834209,
-            "y": 73.99999529661508,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -666,8 +666,8 @@
             "type": "target",
             "nodeId": "node_1766866950002_kushrw4qm",
             "position": "top",
-            "x": 97.5000256021692,
-            "y": -2.500000656465877,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -713,8 +713,8 @@
             "type": "source",
             "nodeId": "node_1766867091936_y47vyb4rk",
             "position": "bottom",
-            "x": 94.00000054834209,
-            "y": 73.99999529661508,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -725,8 +725,8 @@
             "type": "target",
             "nodeId": "node_1766867091936_y47vyb4rk",
             "position": "top",
-            "x": 97.5000256021692,
-            "y": -2.500000656465877,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -773,8 +773,8 @@
             "type": "source",
             "nodeId": "node_1766867202208_gva8g5sy5",
             "position": "bottom",
-            "x": 94.00000054834209,
-            "y": 73.99999529661508,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -785,8 +785,8 @@
             "type": "target",
             "nodeId": "node_1766867202208_gva8g5sy5",
             "position": "top",
-            "x": 97.5000256021692,
-            "y": -2.500000656465877,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -833,8 +833,8 @@
             "type": "target",
             "nodeId": "node_1766867228374_eimugte4u",
             "position": "top",
-            "x": 97.49992918216172,
-            "y": -2.499862430419417,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -876,8 +876,8 @@
             "type": "source",
             "nodeId": "node_1766867238674_7ok0xicnt",
             "position": "bottom",
-            "x": 93.99987975005205,
-            "y": 73.99992142753582,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -888,8 +888,8 @@
             "type": "target",
             "nodeId": "node_1766867238674_7ok0xicnt",
             "position": "top",
-            "x": 97.49992918216172,
-            "y": -2.499862430419417,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -936,8 +936,8 @@
             "type": "source",
             "nodeId": "node_1766867312925_xsyzbiphk",
             "position": "bottom",
-            "x": 93.99987975005205,
-            "y": 73.99992142753582,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -948,8 +948,8 @@
             "type": "target",
             "nodeId": "node_1766867312925_xsyzbiphk",
             "position": "top",
-            "x": 97.49977791371016,
-            "y": -2.5001649673225295,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -995,8 +995,8 @@
             "type": "source",
             "nodeId": "node_1766867363743_6qh7xjp47",
             "position": "bottom",
-            "x": 93.99987975005205,
-            "y": 73.99992142753582,
+            "x": 94,
+            "y": 74,
             "width": 12,
             "height": 12
           }
@@ -1007,8 +1007,8 @@
             "type": "target",
             "nodeId": "node_1766867363743_6qh7xjp47",
             "position": "top",
-            "x": 97.49992918216172,
-            "y": -2.499862430419417,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -1056,8 +1056,8 @@
             "type": "target",
             "nodeId": "node_1766867393677_fisamqb98",
             "position": "top",
-            "x": 97.49988900075707,
-            "y": -2.499981364063194,
+            "x": 97.5,
+            "y": -2.5,
             "width": 5,
             "height": 5
           }
@@ -1089,6 +1089,7 @@
       "target": "node_1766866408317_3oaiuh5jc",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1110,8 +1111,8 @@
               "type": "source",
               "nodeId": "node_1766866322549_hegbws4hm",
               "position": "bottom",
-              "x": 93.9999337478524,
-              "y": 73.99997485993998,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1157,8 +1158,8 @@
               "type": "source",
               "nodeId": "node_1766866408317_3oaiuh5jc",
               "position": "bottom",
-              "x": 93.9998311420633,
-              "y": 73.99998768566361,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1169,8 +1170,8 @@
               "type": "target",
               "nodeId": "node_1766866408317_3oaiuh5jc",
               "position": "top",
-              "x": 97.49991981973217,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1197,10 +1198,10 @@
         },
         "events": {}
       },
-      "sourceX": 414.9999337478524,
-      "sourceY": 115.99997485993998,
-      "targetX": 414.99991981973216,
-      "targetY": 177.50000994865732
+      "sourceX": 415,
+      "sourceY": 116,
+      "targetX": 415,
+      "targetY": 177.5
     },
     {
       "id": "edge_1766866492180_h3abq3nb3",
@@ -1209,6 +1210,7 @@
       "target": "node_1766866452767_xq2eehk4x",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1230,8 +1232,8 @@
               "type": "source",
               "nodeId": "node_1766866408317_3oaiuh5jc",
               "position": "bottom",
-              "x": 93.9998311420633,
-              "y": 73.99998768566361,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1242,8 +1244,8 @@
               "type": "target",
               "nodeId": "node_1766866408317_3oaiuh5jc",
               "position": "top",
-              "x": 97.49991981973217,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1289,8 +1291,8 @@
               "type": "source",
               "nodeId": "node_1766866452767_xq2eehk4x",
               "position": "bottom",
-              "x": 93.9998311420633,
-              "y": 73.99996203421634,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1301,8 +1303,8 @@
               "type": "target",
               "nodeId": "node_1766866452767_xq2eehk4x",
               "position": "top",
-              "x": 97.49991981973217,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1329,10 +1331,10 @@
         },
         "events": {}
       },
-      "sourceX": 414.9998311420633,
-      "sourceY": 265.9999876856636,
-      "targetX": 414.99991981973216,
-      "targetY": 327.5000099486573
+      "sourceX": 415,
+      "sourceY": 266,
+      "targetX": 415,
+      "targetY": 327.5
     },
     {
       "id": "edge_1766866512030_caazsif0k",
@@ -1341,6 +1343,7 @@
       "target": "node_1766866498173_dj17wja4u",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1362,8 +1365,8 @@
               "type": "source",
               "nodeId": "node_1766866452767_xq2eehk4x",
               "position": "bottom",
-              "x": 93.9998311420633,
-              "y": 73.99996203421634,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1374,8 +1377,8 @@
               "type": "target",
               "nodeId": "node_1766866452767_xq2eehk4x",
               "position": "top",
-              "x": 97.49991981973217,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1421,8 +1424,8 @@
               "type": "source",
               "nodeId": "node_1766866498173_dj17wja4u",
               "position": "bottom",
-              "x": 94.00003635364149,
-              "y": 73.99996203421634,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1433,8 +1436,8 @@
               "type": "target",
               "nodeId": "node_1766866498173_dj17wja4u",
               "position": "top",
-              "x": 97.50002242552127,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1460,10 +1463,10 @@
         },
         "events": {}
       },
-      "sourceX": 414.9998311420633,
-      "sourceY": 415.9999620342163,
-      "targetX": 415.00002242552125,
-      "targetY": 462.5000099486573
+      "sourceX": 415,
+      "sourceY": 416,
+      "targetX": 415,
+      "targetY": 462.5
     },
     {
       "id": "edge_1766866547262_0ep6wnlyo",
@@ -1472,6 +1475,7 @@
       "target": "node_1766866540400_ap9t9dcod",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1493,8 +1497,8 @@
               "type": "source",
               "nodeId": "node_1766866498173_dj17wja4u",
               "position": "bottom",
-              "x": 94.00003635364149,
-              "y": 73.99996203421634,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1505,8 +1509,8 @@
               "type": "target",
               "nodeId": "node_1766866498173_dj17wja4u",
               "position": "top",
-              "x": 97.50002242552127,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1551,8 +1555,8 @@
               "type": "source",
               "nodeId": "node_1766866540400_ap9t9dcod",
               "position": "bottom",
-              "x": 93.9999337478524,
-              "y": 73.99996203421634,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1563,8 +1567,8 @@
               "type": "target",
               "nodeId": "node_1766866540400_ap9t9dcod",
               "position": "top",
-              "x": 97.50002242552127,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1589,10 +1593,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.00003635364146,
-      "sourceY": 550.9999620342163,
-      "targetX": 415.00002242552125,
-      "targetY": 597.5000099486573
+      "sourceX": 415,
+      "sourceY": 551,
+      "targetX": 415,
+      "targetY": 597.5
     },
     {
       "id": "edge_1766866592646_11by1lpdv",
@@ -1601,6 +1605,7 @@
       "target": "node_1766866585932_e7hdvszab",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1622,8 +1627,8 @@
               "type": "source",
               "nodeId": "node_1766866540400_ap9t9dcod",
               "position": "bottom",
-              "x": 93.9999337478524,
-              "y": 73.99996203421634,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1634,8 +1639,8 @@
               "type": "target",
               "nodeId": "node_1766866540400_ap9t9dcod",
               "position": "top",
-              "x": 97.50002242552127,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1679,8 +1684,8 @@
               "type": "source",
               "nodeId": "node_1766866585932_e7hdvszab",
               "position": "bottom",
-              "x": 93.9999337478524,
-              "y": 74.00001333711089,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1691,8 +1696,8 @@
               "type": "target",
               "nodeId": "node_1766866585932_e7hdvszab",
               "position": "top",
-              "x": 97.50002242552127,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1718,10 +1723,10 @@
         },
         "events": {}
       },
-      "sourceX": 414.9999337478524,
-      "sourceY": 685.9999620342163,
-      "targetX": 415.00002242552125,
-      "targetY": 732.5000099486573
+      "sourceX": 415,
+      "sourceY": 686,
+      "targetX": 415,
+      "targetY": 732.5
     },
     {
       "id": "edge_1766866625963_45hm9lf85",
@@ -1730,6 +1735,7 @@
       "target": "node_1766866618785_vab8wr6xx",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1751,8 +1757,8 @@
               "type": "source",
               "nodeId": "node_1766866585932_e7hdvszab",
               "position": "bottom",
-              "x": 93.9999337478524,
-              "y": 74.00001333711089,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1763,8 +1769,8 @@
               "type": "target",
               "nodeId": "node_1766866585932_e7hdvszab",
               "position": "top",
-              "x": 97.50002242552127,
-              "y": -2.499990051342689,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1809,8 +1815,8 @@
               "type": "source",
               "nodeId": "node_1766866618785_vab8wr6xx",
               "position": "bottom",
-              "x": 93.999949998572,
-              "y": 74.000013706675,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1821,8 +1827,8 @@
               "type": "target",
               "nodeId": "node_1766866618785_vab8wr6xx",
               "position": "top",
-              "x": 97.4999728623798,
-              "y": -2.499935348610739,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1850,10 +1856,10 @@
         },
         "events": {}
       },
-      "sourceX": 414.9999337478524,
-      "sourceY": 821.0000133371109,
-      "targetX": 414.9999728623798,
-      "targetY": 867.5000646513893
+      "sourceX": 415,
+      "sourceY": 821,
+      "targetX": 415,
+      "targetY": 867.5
     },
     {
       "id": "edge_1766866704347_bw283pg19",
@@ -1862,6 +1868,7 @@
       "target": "node_1766866694099_qz7dj9295",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -1883,8 +1890,8 @@
               "type": "source",
               "nodeId": "node_1766866618785_vab8wr6xx",
               "position": "bottom",
-              "x": 93.999949998572,
-              "y": 74.000013706675,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1895,8 +1902,8 @@
               "type": "target",
               "nodeId": "node_1766866618785_vab8wr6xx",
               "position": "top",
-              "x": 97.4999728623798,
-              "y": -2.499935348610739,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1943,8 +1950,8 @@
               "type": "source",
               "nodeId": "node_1766866694099_qz7dj9295",
               "position": "bottom",
-              "x": 93.999949998572,
-              "y": 73.99990033092223,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -1955,8 +1962,8 @@
               "type": "target",
               "nodeId": "node_1766866694099_qz7dj9295",
               "position": "top",
-              "x": 97.4999728623798,
-              "y": -2.500048724363511,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -1976,17 +1983,17 @@
           "nodeType": "action",
           "config": {
             "to": "test@gmail.com",
-            "subject": "Reminder 2",
-            "body": "Reminder Message 2"
+            "subject": "Discount Code",
+            "body": "RDiscount Code2"
           },
           "icon": "✉️"
         },
         "events": {}
       },
-      "sourceX": 414.999949998572,
-      "sourceY": 956.000013706675,
-      "targetX": 414.9999728623798,
-      "targetY": 1002.4999512756365
+      "sourceX": 415,
+      "sourceY": 956,
+      "targetX": 415,
+      "targetY": 1002.5
     },
     {
       "id": "edge_1766866820314_9i9bqqqbv",
@@ -1995,6 +2002,7 @@
       "target": "node_1766866817069_a72jy7rqh",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2016,8 +2024,8 @@
               "type": "source",
               "nodeId": "node_1766866694099_qz7dj9295",
               "position": "bottom",
-              "x": 93.999949998572,
-              "y": 73.99990033092223,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2028,8 +2036,8 @@
               "type": "target",
               "nodeId": "node_1766866694099_qz7dj9295",
               "position": "top",
-              "x": 97.4999728623798,
-              "y": -2.500048724363511,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2049,8 +2057,8 @@
           "nodeType": "action",
           "config": {
             "to": "test@gmail.com",
-            "subject": "Reminder 2",
-            "body": "Reminder Message 2"
+            "subject": "Discount Code",
+            "body": "RDiscount Code2"
           },
           "icon": "✉️"
         },
@@ -2075,8 +2083,8 @@
               "type": "source",
               "nodeId": "node_1766866817069_a72jy7rqh",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2087,8 +2095,8 @@
               "type": "target",
               "nodeId": "node_1766866817069_a72jy7rqh",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2114,10 +2122,10 @@
         },
         "events": {}
       },
-      "sourceX": 414.999949998572,
-      "sourceY": 1090.9999003309222,
-      "targetX": 415.0000256021692,
-      "targetY": 1122.4999993435342
+      "sourceX": 415,
+      "sourceY": 1091,
+      "targetX": 415,
+      "targetY": 1122.5
     },
     {
       "id": "edge_1766866836131_ac7ewz7d7",
@@ -2126,6 +2134,7 @@
       "target": "node_1766866743702_ymhzo0gln",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2147,8 +2156,8 @@
               "type": "source",
               "nodeId": "node_1766866817069_a72jy7rqh",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2159,8 +2168,8 @@
               "type": "target",
               "nodeId": "node_1766866817069_a72jy7rqh",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2205,8 +2214,8 @@
               "type": "source",
               "nodeId": "node_1766866743702_ymhzo0gln",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99993495967786,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2217,8 +2226,8 @@
               "type": "target",
               "nodeId": "node_1766866743702_ymhzo0gln",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2245,10 +2254,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1210.999995296615,
-      "targetX": 415.0000256021692,
-      "targetY": 1242.4999993435342
+      "sourceX": 415,
+      "sourceY": 1211,
+      "targetX": 415,
+      "targetY": 1242.5
     },
     {
       "id": "edge_1766866889115_t8rhwr0th",
@@ -2257,6 +2266,7 @@
       "target": "node_1766866885002_r0vx95f5i",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2278,8 +2288,8 @@
               "type": "source",
               "nodeId": "node_1766866743702_ymhzo0gln",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99993495967786,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2290,8 +2300,8 @@
               "type": "target",
               "nodeId": "node_1766866743702_ymhzo0gln",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2337,8 +2347,8 @@
               "type": "source",
               "nodeId": "node_1766866885002_r0vx95f5i",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 74.0001159704895,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2349,8 +2359,8 @@
               "type": "target",
               "nodeId": "node_1766866885002_r0vx95f5i",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2369,19 +2379,19 @@
           "label": "HTTP",
           "nodeType": "action",
           "config": {
+            "body": "{ key: 'HTTP release hold\"}",
             "url": "https://mail.google.com/mail/u/releasehold",
             "method": "GET",
-            "headers": "{}",
-            "body": "{ key: 'HTTP release hold\"}"
+            "headers": "{}"
           },
           "icon": "🌐"
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1330.9999349596778,
-      "targetX": 415.0000256021692,
-      "targetY": 1362.4999993435342
+      "sourceX": 415,
+      "sourceY": 1331,
+      "targetX": 415,
+      "targetY": 1362.5
     },
     {
       "id": "edge_1766866956232_90hpqo6fz",
@@ -2390,6 +2400,7 @@
       "target": "node_1766866950002_kushrw4qm",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2411,8 +2422,8 @@
               "type": "source",
               "nodeId": "node_1766866885002_r0vx95f5i",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 74.0001159704895,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2423,8 +2434,8 @@
               "type": "target",
               "nodeId": "node_1766866885002_r0vx95f5i",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2443,10 +2454,10 @@
           "label": "HTTP",
           "nodeType": "action",
           "config": {
+            "body": "{ key: 'HTTP release hold\"}",
             "url": "https://mail.google.com/mail/u/releasehold",
             "method": "GET",
-            "headers": "{}",
-            "body": "{ key: 'HTTP release hold\"}"
+            "headers": "{}"
           },
           "icon": "🌐"
         },
@@ -2471,8 +2482,8 @@
               "type": "source",
               "nodeId": "node_1766866950002_kushrw4qm",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2483,8 +2494,8 @@
               "type": "target",
               "nodeId": "node_1766866950002_kushrw4qm",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2511,10 +2522,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1451.0001159704896,
-      "targetX": 415.0000256021692,
-      "targetY": 1497.4999993435342
+      "sourceX": 415,
+      "sourceY": 1451,
+      "targetX": 415,
+      "targetY": 1497.5
     },
     {
       "id": "edge_1766867096549_caab2yceo",
@@ -2523,6 +2534,7 @@
       "target": "node_1766867091936_y47vyb4rk",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2544,8 +2556,8 @@
               "type": "source",
               "nodeId": "node_1766866950002_kushrw4qm",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2556,8 +2568,8 @@
               "type": "target",
               "nodeId": "node_1766866950002_kushrw4qm",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2603,8 +2615,8 @@
               "type": "source",
               "nodeId": "node_1766867091936_y47vyb4rk",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2615,8 +2627,8 @@
               "type": "target",
               "nodeId": "node_1766867091936_y47vyb4rk",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2644,10 +2656,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1585.999995296615,
-      "targetX": 415.0000256021692,
-      "targetY": 1632.4999993435342
+      "sourceX": 415,
+      "sourceY": 1586,
+      "targetX": 415,
+      "targetY": 1632.5
     },
     {
       "id": "edge_1766867210604_iyrocoxu2",
@@ -2656,6 +2668,7 @@
       "target": "node_1766867202208_gva8g5sy5",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2677,8 +2690,8 @@
               "type": "source",
               "nodeId": "node_1766867091936_y47vyb4rk",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2689,8 +2702,8 @@
               "type": "target",
               "nodeId": "node_1766867091936_y47vyb4rk",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2737,8 +2750,8 @@
               "type": "source",
               "nodeId": "node_1766867202208_gva8g5sy5",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2749,8 +2762,8 @@
               "type": "target",
               "nodeId": "node_1766867202208_gva8g5sy5",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2777,10 +2790,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1720.999995296615,
-      "targetX": 415.0000256021692,
-      "targetY": 1782.4999993435342
+      "sourceX": 415,
+      "sourceY": 1721,
+      "targetX": 415,
+      "targetY": 1782.5
     },
     {
       "id": "edge_1766867232604_7prizg35r",
@@ -2789,6 +2802,7 @@
       "target": "node_1766867228374_eimugte4u",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2810,8 +2824,8 @@
               "type": "source",
               "nodeId": "node_1766867202208_gva8g5sy5",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2822,8 +2836,8 @@
               "type": "target",
               "nodeId": "node_1766867202208_gva8g5sy5",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2870,8 +2884,8 @@
               "type": "target",
               "nodeId": "node_1766867228374_eimugte4u",
               "position": "top",
-              "x": 97.49992918216172,
-              "y": -2.499862430419417,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2894,10 +2908,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1870.999995296615,
-      "targetX": 564.9999291821617,
-      "targetY": 1947.5001375695806
+      "sourceX": 415,
+      "sourceY": 1871,
+      "targetX": 565,
+      "targetY": 1947.5
     },
     {
       "id": "edge_1766867244071_ymsenqk25",
@@ -2906,6 +2920,7 @@
       "target": "node_1766867238674_7ok0xicnt",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -2927,8 +2942,8 @@
               "type": "source",
               "nodeId": "node_1766867202208_gva8g5sy5",
               "position": "bottom",
-              "x": 94.00000054834209,
-              "y": 73.99999529661508,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2939,8 +2954,8 @@
               "type": "target",
               "nodeId": "node_1766867202208_gva8g5sy5",
               "position": "top",
-              "x": 97.5000256021692,
-              "y": -2.500000656465877,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -2986,8 +3001,8 @@
               "type": "source",
               "nodeId": "node_1766867238674_7ok0xicnt",
               "position": "bottom",
-              "x": 93.99987975005205,
-              "y": 73.99992142753582,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -2998,8 +3013,8 @@
               "type": "target",
               "nodeId": "node_1766867238674_7ok0xicnt",
               "position": "top",
-              "x": 97.49992918216172,
-              "y": -2.499862430419417,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3027,10 +3042,10 @@
         },
         "events": {}
       },
-      "sourceX": 415.0000005483421,
-      "sourceY": 1870.999995296615,
-      "targetX": 249.99992918216174,
-      "targetY": 1947.5001375695806
+      "sourceX": 415,
+      "sourceY": 1871,
+      "targetX": 250,
+      "targetY": 1947.5
     },
     {
       "id": "edge_1766867316222_nj5iu1b4e",
@@ -3039,6 +3054,7 @@
       "target": "node_1766867312925_xsyzbiphk",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -3060,8 +3076,8 @@
               "type": "source",
               "nodeId": "node_1766867238674_7ok0xicnt",
               "position": "bottom",
-              "x": 93.99987975005205,
-              "y": 73.99992142753582,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -3072,8 +3088,8 @@
               "type": "target",
               "nodeId": "node_1766867238674_7ok0xicnt",
               "position": "top",
-              "x": 97.49992918216172,
-              "y": -2.499862430419417,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3120,8 +3136,8 @@
               "type": "source",
               "nodeId": "node_1766867312925_xsyzbiphk",
               "position": "bottom",
-              "x": 93.99987975005205,
-              "y": 73.99992142753582,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -3132,8 +3148,8 @@
               "type": "target",
               "nodeId": "node_1766867312925_xsyzbiphk",
               "position": "top",
-              "x": 97.49977791371016,
-              "y": -2.5001649673225295,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3160,10 +3176,10 @@
         },
         "events": {}
       },
-      "sourceX": 249.99987975005206,
-      "sourceY": 2035.9999214275358,
-      "targetX": 174.99977791371015,
-      "targetY": 2112.4998350326773
+      "sourceX": 250,
+      "sourceY": 2036,
+      "targetX": 175,
+      "targetY": 2112.5
     },
     {
       "id": "edge_1766867365739_fx6kmrcux",
@@ -3172,6 +3188,7 @@
       "target": "node_1766867363743_6qh7xjp47",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -3193,8 +3210,8 @@
               "type": "source",
               "nodeId": "node_1766867312925_xsyzbiphk",
               "position": "bottom",
-              "x": 93.99987975005205,
-              "y": 73.99992142753582,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -3205,8 +3222,8 @@
               "type": "target",
               "nodeId": "node_1766867312925_xsyzbiphk",
               "position": "top",
-              "x": 97.49977791371016,
-              "y": -2.5001649673225295,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3252,8 +3269,8 @@
               "type": "source",
               "nodeId": "node_1766867363743_6qh7xjp47",
               "position": "bottom",
-              "x": 93.99987975005205,
-              "y": 73.99992142753582,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -3264,8 +3281,8 @@
               "type": "target",
               "nodeId": "node_1766867363743_6qh7xjp47",
               "position": "top",
-              "x": 97.49992918216172,
-              "y": -2.499862430419417,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3293,10 +3310,10 @@
         },
         "events": {}
       },
-      "sourceX": 174.99987975005206,
-      "sourceY": 2200.999921427536,
-      "targetX": 174.99992918216174,
-      "targetY": 2262.5001375695806
+      "sourceX": 175,
+      "sourceY": 2201,
+      "targetX": 175,
+      "targetY": 2262.5
     },
     {
       "id": "edge_1766867409589_kumqq80i4",
@@ -3305,6 +3322,7 @@
       "target": "node_1766867393677_fisamqb98",
       "data": {},
       "events": {},
+      "label": "",
       "animated": true,
       "markerEnd": "arrowclosed",
       "sourceNode": {
@@ -3326,8 +3344,8 @@
               "type": "source",
               "nodeId": "node_1766867363743_6qh7xjp47",
               "position": "bottom",
-              "x": 93.99987975005205,
-              "y": 73.99992142753582,
+              "x": 94,
+              "y": 74,
               "width": 12,
               "height": 12
             }
@@ -3338,8 +3356,8 @@
               "type": "target",
               "nodeId": "node_1766867363743_6qh7xjp47",
               "position": "top",
-              "x": 97.49992918216172,
-              "y": -2.499862430419417,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3387,8 +3405,8 @@
               "type": "target",
               "nodeId": "node_1766867393677_fisamqb98",
               "position": "top",
-              "x": 97.49988900075707,
-              "y": -2.499981364063194,
+              "x": 97.5,
+              "y": -2.5,
               "width": 5,
               "height": 5
             }
@@ -3411,15 +3429,15 @@
         },
         "events": {}
       },
-      "sourceX": 174.99987975005206,
-      "sourceY": 2350.999921427536,
-      "targetX": 174.99988900075707,
-      "targetY": 2412.5000186359366
+      "sourceX": 175,
+      "sourceY": 2351,
+      "targetX": 175,
+      "targetY": 2412.5
     }
   ],
-  "timestamp": 1766867429139,
+  "timestamp": 1766868791403,
   "metadata": {
-    "exportedAt": "2025-12-27T20:30:29.139Z",
+    "exportedAt": "2025-12-27T20:53:11.403Z",
     "nodeCount": 19,
     "edgeCount": 18
   }
